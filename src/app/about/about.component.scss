@@ -5,7 +5,58 @@
     background-color: white;
   }
 
-  #thediv {
+  p, li {
+    font-family: Rubik;
+    font-size: 14px;
+    text-align: justify;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: Rubik;
+    font-size: 14px;
+    text-align: right;
+    text-decoration: underline;
+    font-style: bold;
+    margin: 0;
+  }
+
+  #logoContainer {
 	background-color: #F44336;
-	box-shadow: 0 0px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0px 25px rgba(0, 0, 0, 0.5);
+  height: 150px;
+  z-index: 2;
+}
+
+#subtitleContainer {
+	background-color: #A90F03;
+}
+
+#subtitleContainer p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px
+}
+
+.whiteContainer {
+	background-color: white;
+}
+
+.greyContainer {
+	background-color: #ececec;
+}
+
+.redContainer {
+  background-color: #F44336;
+  color: white;
+}
+
+#scheme {
+  width: 100vw;
+}
+
+.coImg img {
+  height: 80px;
 }
