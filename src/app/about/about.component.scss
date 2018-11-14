@@ -7,18 +7,23 @@
 
   p, li {
     font-family: Rubik;
-    font-size: 14px;
-    text-align: justify;
+    font-size: 16px;
+    //text-align: justify;
     margin: 0;
+    line-height: 1.5;
+  }
+
+  ul {
+    margin: 5px;
   }
 
   h1 {
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 16px;
     text-align: right;
     text-decoration: underline;
     font-style: bold;
-    margin: 0;
+    margin: 0 0 3px 0;
   }
 
   #logoContainer {
@@ -33,7 +38,7 @@
 }
 
 #subtitleContainer p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   text-align: center;
   color: #ffffff;
@@ -41,16 +46,19 @@
 }
 
 .whiteContainer {
-	background-color: white;
+  background-color: white;
+  padding: 8px 20px;
 }
 
 .greyContainer {
-	background-color: #ececec;
+  background-color: #ececec;
+  padding: 8px 20px;
 }
 
 .redContainer {
   background-color: #F44336;
   color: white;
+  padding: 8px 20px;
 }
 
 #scheme {
